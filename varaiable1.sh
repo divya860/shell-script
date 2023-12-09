@@ -1,6 +1,8 @@
 #!bin/bash
 
-echo "ramesh: hello suresh"
-echo "suresh: hello ,how are you"
-echo "ramesh: good and u"
-echo "suresh: am also good"
+person1=ram
+person2=ragu
+echo "person1: hello person2"
+echo "person2: hello ,how are you"
+echo "person1: good and u"
+echo "person2: am also good"
