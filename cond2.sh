@@ -9,7 +9,7 @@ then
 
 fi
 
-yum install jenkins -y
+yum install postfix -y
 
 if [ $? -ne 0]
 then
