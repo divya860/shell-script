@@ -5,9 +5,9 @@ USERID=$(id -u)
 VALIDATE(){
      if [ $? -ne 0 ]
      then
-         echo "Installation... FAILED(not removed)"
+         echo "Installation... FAILED"
      else
-         echo "installation.... SUCCESS(removed)"
+         echo "installation.... SUCCESS"
      fi
 }
 
@@ -16,10 +16,10 @@ then
     echo "pls run this script with root access"
 fi
 
-yum remove mysql -y
+yum install docker -y
 
 VALIDATE $?
 
-yum remove postfix -y
+yum install postfix -y
 
 VALIDATE $?
