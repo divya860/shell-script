@@ -11,7 +11,7 @@ fi
 
 yum install postfix -y
 
-if [ $? -ne 0]
+if [ $? -ne 0 ]
 then
    echo "Installation of mysql is error"
 else
