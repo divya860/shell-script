@@ -10,3 +10,18 @@ then
 fi
 
 yum install mysql -y
+
+if [ $? -ne 0]
+then
+   echo "Installation of mysql is error"
+else
+   echo "installation of mysql success"
+
+yum install maven -y
+
+if [ $? -ne 0]
+then
+   echo "installation of maven is error"
+else
+   echo "installation of maven is success"
+fi
