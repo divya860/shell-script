@@ -9,7 +9,7 @@ then
 
 fi
 
-yum install mysql -y
+yum install jenkins -y
 
 if [ $? -ne 0]
 then
@@ -19,7 +19,7 @@ else
 
 yum install maven -y
 
-if [ $? -ne 0]
+if [ $? -ne 0 ]
 then
    echo "installation of maven is error"
 else
