@@ -16,6 +16,7 @@ then
    echo "Installation of mysql is error"
 else
    echo "installation of mysql success"
+fi
 
 yum install maven -y
 
