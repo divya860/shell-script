@@ -10,10 +10,15 @@
 # echo "all : $@"
 
 
-echo 1
+# echo 1
 
-echo 2
+# echo 2
 
-echo 3
+# echo 3
 
-echo 4
+# echo 4
+
+for i in {1..100}
+do 
+   echo $i
+done
